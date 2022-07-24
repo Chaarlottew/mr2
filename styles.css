@@ -46,6 +46,12 @@ body {
     background-color: #292929;
     overflow: hidden;
 }
+@media screen and (max-width: 700px)
+{
+    body {
+        margin: 16px;
+    }
+}
 
 nav {
     background-color: #292929;
@@ -63,6 +69,12 @@ nav a {
     font-weight: bold;
     padding: 10px 20px;
     transition: 0.2s ease color;
+}
+
+@media screen and (max-width: 700px) {
+    nav a {
+        display: block;
+    }
 }
 
 nav a:before,
@@ -148,13 +160,15 @@ nav a:nth-child(4):hover~#indicator {
     padding-left: 30px;
     padding-right: 30px;
     box-sizing: border-box;
-
 }
 
 
 @media screen and (max-width: 700px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
+        padding-left: 16px;
+        padding-right: 16px;
+        grid-gap: 16px;
     }
 }
 
@@ -208,6 +222,17 @@ nav a:nth-child(4):hover~#indicator {
     padding-left: 50px;
     padding-top: 30px;
 }
+@media screen and (max-width: 700px)
+{
+    .image1 {
+        float:none;
+        width:350px;
+        height:350px;
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+}
 
 .image2 {
     float: right;
@@ -216,23 +241,49 @@ nav a:nth-child(4):hover~#indicator {
 
     padding-top: 30px;
 }
-
+@media screen and (max-width: 700px)
+{
+    .image2 {
+        float: none;
+        width:350px;
+        height:350px;
+        margin-right:0px;
+        
+        
+    }
+}
 .title1 {
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 30px;
     color: lightgray;
     margin-left: 50px;
     text-align: center;
     padding-bottom: 20px;
 }
+@media screen and (max-width: 700px)
+{
+    .title1 {
+        text-align:center;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+}
 
 .title2 {
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 30px;
     color: lightgray;
     margin-left: 50px;
     text-align: center;
     padding-bottom: 20px;
+}
+@media screen and (max-width: 700px)
+{
+    .title2 {
+        text-align:center;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
 }
 
 .wrapper1 {
@@ -245,6 +296,20 @@ nav a:nth-child(4):hover~#indicator {
     padding-right: 190px;
 
 }
+@media screen and (max-width: 700px)
+{
+    .wrapper1 {
+        text-align:center;
+        margin-left: 0px;
+        margin-right:40px;
+        margin-left:0px;
+        padding-right:0px;
+        margin-top:0px;
+        padding-bottom:0px;
+
+    }
+}
+
 
 .wrapper2 {
     font-size: 25px;
@@ -256,6 +321,18 @@ nav a:nth-child(4):hover~#indicator {
     padding-right: 190px;
 
 }
+@media screen and (max-width: 700px)
+{
+    .wrapper2 {
+        text-align:center;
+        margin-left: 0px;
+        margin-right:40px;
+        margin-left:0px;
+        padding-right:0px;
+        margin-top:0px;
+        padding-bottom:0px;
+    }
+}
 
 .title3 {
 
@@ -265,12 +342,28 @@ nav a:nth-child(4):hover~#indicator {
     text-align: center;
     padding-bottom: 20px;
 }
+@media screen and (max-width: 700px)
+{
+    .title3 {
+        text-align:center;
+    
+        margin-left: 0px;
+    }
+}
 
 .wrapper3 {
     font-size: 20px;
     color: lightgray;
 
 
+}
+@media screen and (max-width: 700px)
+{
+    .wrapper3 {
+        text-align:center;
+    
+        margin-left: 0px;
+    }
 }
 
 .line1 {
@@ -279,12 +372,34 @@ nav a:nth-child(4):hover~#indicator {
     margin-left: 50px;
     margin-right: 50px;
 }
+@media screen and (max-width: 700px)
+{
+    .line1 {
+        padding-top: 30px;
+        border-bottom: 2px solid rgba(255, 0, 0, 0.3);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:5px;
+
+    }
+}
 
 .line2 {
     padding-top: 10px;
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
     margin-left: 50px;
     margin-right: 50px;
+}
+@media screen and (max-width: 700px)
+{
+    .line2 {
+        padding-top: 30px;
+        border-bottom: 2px solid rgba(255, 0, 0, 0.3);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:5px;
+
+    }
 }
 
 .line3 {
@@ -293,18 +408,31 @@ nav a:nth-child(4):hover~#indicator {
     margin-left: 50px;
     margin-right: 50px;
 }
+@media screen and (max-width: 700px)
+{
+    .line3 {
+        padding-top: 30px;
+        border-bottom: 2px solid rgba(255, 0, 0, 0.3);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:5px;
+
+    }
+}
 
 .line4 {
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
     padding-top: 20px;
     align-self: center;
 }
+
 .line5 {
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
     padding-top: 20px;
     align-self: center;
     margin-bottom: 30px;
 }
+
 .line7 {
 
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
@@ -312,6 +440,7 @@ nav a:nth-child(4):hover~#indicator {
     padding-top: 30px;
     align-self: center;
 }
+
 .line8 {
 
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
@@ -319,13 +448,15 @@ nav a:nth-child(4):hover~#indicator {
     margin-bottom: 0px;
     align-self: center;
 }
+
 .line9 {
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
     padding-top: 20px;
     align-self: center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     padding-bottom: 10px;
 }
+
 .line10 {
 
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
@@ -636,6 +767,7 @@ li {
     text-align: center;
     padding-bottom: 20px;
 }
+
 .title5 {
 
     font-size: 25px;
@@ -644,12 +776,20 @@ li {
     text-align: center;
     padding-bottom: 20px;
 }
+
 .section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     box-sizing: border-box;
     margin: 0px auto 0;
     justify-items: right;
+}
+@media screen and (max-width: 700px)
+{
+    .section {
+        display:block;
+
+    }
 }
 
 .container {
@@ -665,21 +805,36 @@ li {
     text-align: center;
     padding-bottom: 20px;
 }
+
 .hwrapper {
     font-size: 25px;
     color: lightgray;
-    max-width:1200px;
+    max-width: 1200px;
     text-align: center;
 
 }
+
 .contain {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
+
 .image7 {
-   margin-right:25px;
-   margin-left:25px;
+    margin-right: 25px;
+    margin-left: 25px;
 
     margin-top: 40px;
+}
+.row
+{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+@media screen and (max-width: 700px)
+{
+    .row{
+        display:grid; 
+    grid-template-columns: 1fr; 
+    }
 }
