@@ -352,7 +352,7 @@ nav a:nth-child(4):hover~#indicator {
 @media screen and (max-width: 700px) {
     .title3 {
         text-align: center;
-        padding-top:0px;
+        padding-top: 0px;
         margin-left: 0px;
     }
 }
@@ -369,7 +369,7 @@ nav a:nth-child(4):hover~#indicator {
         text-align: center;
 
         margin-left: 0px;
-        padding-bottom:16px;
+
     }
 }
 
@@ -426,6 +426,7 @@ nav a:nth-child(4):hover~#indicator {
     padding-top: 20px;
     align-self: center;
 }
+
 @media screen and (max-width: 700px) {
     .line4 {
         margin-top: 0px;
@@ -449,6 +450,7 @@ nav a:nth-child(4):hover~#indicator {
     padding-top: 30px;
     align-self: center;
 }
+
 @media screen and (max-width: 700px) {
     .line7 {
         padding-top: 16px;
@@ -491,11 +493,12 @@ nav a:nth-child(4):hover~#indicator {
     margin-bottom: 30px;
     align-self: center;
 }
+
 @media screen and (max-width: 700px) {
     .line10 {
-        
+
         padding-top: 16px;
-        margin-bottom:0px;
+        margin-bottom: 0px;
 
     }
 }
@@ -657,6 +660,7 @@ li {
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
 }
+
 @media screen and (max-width: 700px) {
     .carousel2 {
         width: 100%;
@@ -689,6 +693,7 @@ li {
     width: 100%;
     height: 100%;
 }
+
 @media screen and (max-width: 700px) {
     .carousel__slide img {
         width: 100%;
@@ -808,31 +813,49 @@ li {
 .image5 {
     float: right;
     margin-top: 30px;
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
 
 }
+
 @media screen and (max-width: 700px) {
     .image5 {
         width: 100%;
         height: auto;
-        margin-top:0px;
+        margin-top: 0px;
     }
 }
 
 .image6 {
     float: right;
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
     margin-top: 30px;
 }
+
 @media screen and (max-width: 700px) {
     .image6 {
         width: 100%;
         height: auto;
-        margin-top:16px;
+        margin-top: 16px;
     }
 }
+
+.image8 {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .image8 {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+}
+
 .title4 {
 
     font-size: 25px;
@@ -841,9 +864,10 @@ li {
     text-align: center;
     padding-bottom: 20px;
 }
+
 @media screen and (max-width: 700px) {
     .title4 {
-        padding-top:0px;
+        padding-top: 0px;
     }
 }
 
@@ -855,9 +879,10 @@ li {
     text-align: center;
     padding-bottom: 20px;
 }
+
 @media screen and (max-width: 700px) {
     .title5 {
-        padding-top:16px;
+        padding-top: 16px;
     }
 }
 
@@ -948,11 +973,13 @@ li {
 .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 @media screen and (max-width: 700px) {
     .row {
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap: 16px;
     }
 }
