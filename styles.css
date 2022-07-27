@@ -372,7 +372,22 @@ nav a:nth-child(4):hover~#indicator {
 
     }
 }
+.wrapper4 {
+    font-size: 20px;
+    color: lightgray;
 
+
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper4 {
+        text-align: center;
+
+        margin-left: 0px;
+        padding-bottom:16px;
+
+    }
+}
 .line1 {
     padding-top: 60px;
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
@@ -471,8 +486,8 @@ nav a:nth-child(4):hover~#indicator {
 
 @media screen and (max-width: 700px) {
     .line8 {
-        margin-top: 16px;
-        margin-bottom: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
         padding-top: 0px;
 
     }
