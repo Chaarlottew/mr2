@@ -126,6 +126,12 @@ nav .current {
     opacity: 0;
 }
 
+@media screen and (max-width: 700px) {
+    #indicator {
+        display: none;
+    }
+}
+
 /* 
 
 nav a:nth-child(1):hover~#indicator {
@@ -225,7 +231,7 @@ nav a:nth-child(4):hover~#indicator {
 
 @media screen and (max-width: 700px) {
     .image1 {
-        padding-top: 10px;
+        padding-top: 0px;
         float: none;
         width: 350px;
         height: 350px;
@@ -250,7 +256,7 @@ nav a:nth-child(4):hover~#indicator {
         width: 350px;
         height: 350px;
         margin-right: 0px;
-        padding-top: 10px;
+        padding-top: 0px;
 
     }
 }
@@ -269,6 +275,7 @@ nav a:nth-child(4):hover~#indicator {
         text-align: center;
         margin-left: 0px;
         margin-right: 40px;
+        padding-top:20px;
     }
 }
 
@@ -286,7 +293,9 @@ nav a:nth-child(4):hover~#indicator {
         text-align: center;
         margin-left: 0px;
         margin-right: 40px;
+        
         padding-top: 0px;
+padding-bottom: 0px;
     }
 }
 
@@ -310,7 +319,7 @@ nav a:nth-child(4):hover~#indicator {
         margin-left: 0px;
         padding-right: 0px;
         margin-top: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
 
     }
 }
@@ -336,7 +345,7 @@ nav a:nth-child(4):hover~#indicator {
         margin-left: 0px;
         padding-right: 0px;
         margin-top: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 }
 
@@ -372,6 +381,7 @@ nav a:nth-child(4):hover~#indicator {
 
     }
 }
+
 .wrapper4 {
     font-size: 20px;
     color: lightgray;
@@ -384,10 +394,11 @@ nav a:nth-child(4):hover~#indicator {
         text-align: center;
 
         margin-left: 0px;
-        padding-bottom:16px;
+        padding-bottom: 16px;
 
     }
 }
+
 .line1 {
     padding-top: 60px;
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
@@ -397,8 +408,8 @@ nav a:nth-child(4):hover~#indicator {
 
 @media screen and (max-width: 700px) {
     .line1 {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 16px;
+        margin-bottom: 10px;
         padding-top: 0px;
 
     }
@@ -413,9 +424,9 @@ nav a:nth-child(4):hover~#indicator {
 
 @media screen and (max-width: 700px) {
     .line2 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding-top: 0px;
+        margin-top: 16px;
+margin-bottom: 10px;
+padding-top: 0px;
 
     }
 }
@@ -429,9 +440,9 @@ nav a:nth-child(4):hover~#indicator {
 
 @media screen and (max-width: 700px) {
     .line3 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding-top: 0px;
+        margin-top: 16px;
+margin-bottom: 10px;
+padding-top: 0px;
 
     }
 }
@@ -487,8 +498,9 @@ nav a:nth-child(4):hover~#indicator {
 @media screen and (max-width: 700px) {
     .line8 {
         padding-top: 16px;
-        padding-bottom: 16px;
         
+
+
 
     }
 }
@@ -517,6 +529,7 @@ nav a:nth-child(4):hover~#indicator {
 
     }
 }
+
 .line11 {
 
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
@@ -524,21 +537,48 @@ nav a:nth-child(4):hover~#indicator {
     margin-bottom: 30px;
     align-self: center;
 }
+
 @media screen and (max-width: 700px) {
     .line11 {
         padding-top: 0px;
-        
-        margin-bottom: 0px;
-        padding-bottom:16px;
+
+        margin-bottom: 10px;
+        padding-bottom: 16px;
 
 
     }
 }
 
+.line12 {
+
+    border-bottom: 2px solid rgba(255, 0, 0, 0.3);
+    padding-top: 35px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+@media screen and (max-width: 700px) {
+    .line12 {
+        padding-top: 0px;
+
+        margin-bottom: 10px;
+        padding-bottom: 16px;
+
+
+    }
+}
 .line6 {
     border-bottom: 2px solid rgba(255, 0, 0, 0.3);
     margin-left: 50px;
     margin-right: 50px;
+}
+@media screen and (max-width: 700px) {
+    .line6 {
+        margin-top: 16px;
+margin-bottom: 0px;
+padding-top: 0px;
+
+    }
 }
 
 .size {
@@ -899,7 +939,7 @@ li {
 
 @media screen and (max-width: 700px) {
     .title4 {
-        padding-top: 0px;
+        padding-top: 10px;
     }
 }
 
@@ -940,7 +980,7 @@ li {
 
 .htitle {
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 25px;
     color: lightgray;
     margin-left: 50px;
     text-align: center;
@@ -952,6 +992,24 @@ li {
         padding-top: 0px;
         margin-left: 0px;
         margin-top: -10px;
+
+
+    }
+}
+.htitle1 {
+    padding-top: 20px;
+    font-size: 25px;
+    color: lightgray;
+    margin-left: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .htitle1 {
+        padding-top: 0px;
+        margin-left: 0px;
+        
 
 
     }
@@ -969,7 +1027,7 @@ li {
     .hwrapper {
         font-size: 20px;
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
 
 
     }
